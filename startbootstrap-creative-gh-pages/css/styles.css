@@ -6985,6 +6985,7 @@ textarea.form-control-lg {
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
+  font-family: 'Amatic SC', cursive;
 }
 
 .mb-3 {
@@ -7367,8 +7368,15 @@ textarea.form-control-lg {
 }
 
 .text-white {
-  color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
+  font-family: 'Amatic SC', cursive;
 }
+
+.text-center  {
+  color: rgb(0, 0, 0) !important;
+  font-family: 'Amatic SC', cursive;
+}
+
 
 .text-body {
   color: #212529 !important;
@@ -7376,6 +7384,7 @@ textarea.form-control-lg {
 
 .text-muted {
   color: #6c757d !important;
+  font-family: 'Amatic SC', cursive;
 }
 
 .text-black-50 {
@@ -7419,7 +7428,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #ffffff !important;
 }
 
 .bg-body {
@@ -10881,8 +10890,9 @@ hr.divider-light {
 }
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-weight: 00;
   color: #212529;
+  font-family: 'Cormorant Garamond', serif;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -10890,6 +10900,7 @@ hr.divider-light {
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
+  font-family: 'Amatic SC', cursive;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #f4623a;
@@ -10940,7 +10951,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(155, 155, 155, 0.8) 0%, rgba(143, 143, 143, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(115, 78, 248, 0) 0%, rgba(143, 143, 143, 0.0) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10966,6 +10977,7 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
+    font-family: 'Amatic SC', cursive;
   }
 }
 
